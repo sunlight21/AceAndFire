@@ -146,8 +146,8 @@ extension ViewController: UITableViewDataSource {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: commonCell) as? CommonCell else {
                 return UITableViewCell()
             }
-            if let val = self.characters?[indexPath.row] {
-                cell.configureCell(value: val.name)
+            if let val = self.characters?[indexPath.row], let aliase = val.aliases?.first {
+                cell.configureCell(value: aliase)
             }
             return cell
         default:
