@@ -7,21 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D85B5D72103AD9D00DA74EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B5D62103AD9D00DA74EA /* AppDelegate.swift */; };
-		4D85B5D92103AD9D00DA74EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B5D82103AD9D00DA74EA /* ViewController.swift */; };
-		4D85B5DC2103AD9D00DA74EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B5DA2103AD9D00DA74EA /* Main.storyboard */; };
-		4D85B5DE2103AD9F00DA74EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B5DD2103AD9F00DA74EA /* Assets.xcassets */; };
-		4D85B5E12103AD9F00DA74EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B5DF2103AD9F00DA74EA /* LaunchScreen.storyboard */; };
+		4D85B5EE2103AEDC00DA74EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B5EB2103AEDC00DA74EA /* LaunchScreen.storyboard */; };
+		4D85B5EF2103AEDC00DA74EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B5EC2103AEDC00DA74EA /* AppDelegate.swift */; };
+		4D85B5F02103AEDC00DA74EA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B5ED2103AEDC00DA74EA /* Info.plist */; };
+		4D85B5F42103AF9D00DA74EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B5F32103AF9D00DA74EA /* Assets.xcassets */; };
+		9B34ADE121062527004F9163 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B34ADE021062527004F9163 /* Book.swift */; };
+		9B34ADE321062553004F9163 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B34ADE221062553004F9163 /* House.swift */; };
+		9B647EB0210AB6030066CADA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647EAF210AB6030066CADA /* Character.swift */; };
+		9B647EB7210AC1AB0066CADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B647EB5210AC1AB0066CADA /* Main.storyboard */; };
+		9B647EBA210AD7C70066CADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647EB9210AD7C70066CADA /* ViewController.swift */; };
+		9B647EBC210ADA810066CADA /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647EBB210ADA810066CADA /* Presenter.swift */; };
+		9B647EC4210ADCBB0066CADA /* GetAllCharactersRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647EC0210ADCBB0066CADA /* GetAllCharactersRequest.swift */; };
+		9B647EC5210ADCBB0066CADA /* GetAllHousesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647EC1210ADCBB0066CADA /* GetAllHousesRequest.swift */; };
+		9B647EC6210ADCBB0066CADA /* GetAllBooksRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647EC2210ADCBB0066CADA /* GetAllBooksRequest.swift */; };
+		9B647EC7210ADCBB0066CADA /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647EC3210ADCBB0066CADA /* URLs.swift */; };
+		9B647EC9210ADCEE0066CADA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647EC8210ADCEE0066CADA /* NetworkService.swift */; };
+		9B647ECC210AE43B0066CADA /* ActivityIndicated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647ECB210AE43B0066CADA /* ActivityIndicated.swift */; };
+		9B647ECF210AECD70066CADA /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647ECE210AECD70066CADA /* UITableView.swift */; };
+		9B647ED1210AED560066CADA /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647ED0210AED560066CADA /* Foundation.swift */; };
+		9B647ED4210AEE1F0066CADA /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647ED2210AEE1F0066CADA /* BookCell.swift */; };
+		9B647ED5210AEE1F0066CADA /* BookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B647ED3210AEE1F0066CADA /* BookCell.xib */; };
+		9B647ED8210AEE390066CADA /* CommonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B647ED6210AEE390066CADA /* CommonCell.swift */; };
+		9B647ED9210AEE390066CADA /* CommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B647ED7210AEE390066CADA /* CommonCell.xib */; };
+		C915D1C1E3B2B9B5235D737D /* Pods_ASongOfIceAndFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB311E0EEEBF3DBB3EB182 /* Pods_ASongOfIceAndFire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D85B5D32103AD9D00DA74EA /* ASongOfIceAndFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASongOfIceAndFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D85B5D62103AD9D00DA74EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D85B5D82103AD9D00DA74EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D85B5DB2103AD9D00DA74EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D85B5DD2103AD9F00DA74EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D85B5E02103AD9F00DA74EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4D85B5E22103AD9F00DA74EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D85B5EB2103AEDC00DA74EA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D85B5EC2103AEDC00DA74EA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D85B5ED2103AEDC00DA74EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D85B5F32103AF9D00DA74EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C984961D5B864A32D1E76E3 /* Pods-ASongOfIceAndFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASongOfIceAndFire.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASongOfIceAndFire/Pods-ASongOfIceAndFire.release.xcconfig"; sourceTree = "<group>"; };
+		9B34ADE021062527004F9163 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		9B34ADE221062553004F9163 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		9B647EAF210AB6030066CADA /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		9B647EB5210AC1AB0066CADA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9B647EB9210AD7C70066CADA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B647EBB210ADA810066CADA /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		9B647EC0210ADCBB0066CADA /* GetAllCharactersRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllCharactersRequest.swift; sourceTree = "<group>"; };
+		9B647EC1210ADCBB0066CADA /* GetAllHousesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllHousesRequest.swift; sourceTree = "<group>"; };
+		9B647EC2210ADCBB0066CADA /* GetAllBooksRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllBooksRequest.swift; sourceTree = "<group>"; };
+		9B647EC3210ADCBB0066CADA /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		9B647EC8210ADCEE0066CADA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9B647ECB210AE43B0066CADA /* ActivityIndicated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicated.swift; sourceTree = "<group>"; };
+		9B647ECE210AECD70066CADA /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		9B647ED0210AED560066CADA /* Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foundation.swift; sourceTree = "<group>"; };
+		9B647ED2210AEE1F0066CADA /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		9B647ED3210AEE1F0066CADA /* BookCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCell.xib; sourceTree = "<group>"; };
+		9B647ED6210AEE390066CADA /* CommonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCell.swift; sourceTree = "<group>"; };
+		9B647ED7210AEE390066CADA /* CommonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonCell.xib; sourceTree = "<group>"; };
+		BBAB311E0EEEBF3DBB3EB182 /* Pods_ASongOfIceAndFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASongOfIceAndFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EB6DFE169429E2DC0686A0 /* Pods-ASongOfIceAndFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASongOfIceAndFire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASongOfIceAndFire/Pods-ASongOfIceAndFire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +66,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C915D1C1E3B2B9B5235D737D /* Pods_ASongOfIceAndFire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21819526191B23101C118558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB311E0EEEBF3DBB3EB182 /* Pods_ASongOfIceAndFire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CC1295CC7DF4DD1D75AFBF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0EB6DFE169429E2DC0686A0 /* Pods-ASongOfIceAndFire.debug.xcconfig */,
+				8C984961D5B864A32D1E76E3 /* Pods-ASongOfIceAndFire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4D85B5CA2103AD9D00DA74EA = {
 			isa = PBXGroup;
 			children = (
 				4D85B5D52103AD9D00DA74EA /* ASongOfIceAndFire */,
 				4D85B5D42103AD9D00DA74EA /* Products */,
+				2CC1295CC7DF4DD1D75AFBF7 /* Pods */,
+				21819526191B23101C118558 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +111,127 @@
 		4D85B5D52103AD9D00DA74EA /* ASongOfIceAndFire */ = {
 			isa = PBXGroup;
 			children = (
-				4D85B5D62103AD9D00DA74EA /* AppDelegate.swift */,
-				4D85B5D82103AD9D00DA74EA /* ViewController.swift */,
-				4D85B5DA2103AD9D00DA74EA /* Main.storyboard */,
-				4D85B5DD2103AD9F00DA74EA /* Assets.xcassets */,
-				4D85B5DF2103AD9F00DA74EA /* LaunchScreen.storyboard */,
-				4D85B5E22103AD9F00DA74EA /* Info.plist */,
+				9B647ECD210AECD70066CADA /* Extensions */,
+				9B647ECA210AE43B0066CADA /* ThirdParty */,
+				9B647EBE210ADCBB0066CADA /* Services */,
+				9B647EB3210AC1AB0066CADA /* Screens */,
+				9B34ADDE210624FC004F9163 /* Models */,
+				4D85B5F12103AF9D00DA74EA /* Resources */,
+				4D85B5EA2103AEDC00DA74EA /* Application */,
 			);
 			path = ASongOfIceAndFire;
+			sourceTree = "<group>";
+		};
+		4D85B5EA2103AEDC00DA74EA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4D85B5EB2103AEDC00DA74EA /* LaunchScreen.storyboard */,
+				4D85B5EC2103AEDC00DA74EA /* AppDelegate.swift */,
+				4D85B5ED2103AEDC00DA74EA /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4D85B5F12103AF9D00DA74EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D85B5F22103AF9D00DA74EA /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D85B5F22103AF9D00DA74EA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D85B5F32103AF9D00DA74EA /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9B34ADDE210624FC004F9163 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B34ADDF210624FC004F9163 /* Entity */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B34ADDF210624FC004F9163 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9B34ADE021062527004F9163 /* Book.swift */,
+				9B34ADE221062553004F9163 /* House.swift */,
+				9B647EAF210AB6030066CADA /* Character.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9B647EB3210AC1AB0066CADA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9B647EB8210AD7C70066CADA /* Main */,
+				9B647EB5210AC1AB0066CADA /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9B647EB8210AD7C70066CADA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B647EBD210ADAD80066CADA /* Cells */,
+				9B647EB9210AD7C70066CADA /* ViewController.swift */,
+				9B647EBB210ADA810066CADA /* Presenter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9B647EBD210ADAD80066CADA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9B647ED2210AEE1F0066CADA /* BookCell.swift */,
+				9B647ED3210AEE1F0066CADA /* BookCell.xib */,
+				9B647ED6210AEE390066CADA /* CommonCell.swift */,
+				9B647ED7210AEE390066CADA /* CommonCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9B647EBE210ADCBB0066CADA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9B647EBF210ADCBB0066CADA /* Requests */,
+				9B647EC8210ADCEE0066CADA /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9B647EBF210ADCBB0066CADA /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				9B647EC0210ADCBB0066CADA /* GetAllCharactersRequest.swift */,
+				9B647EC1210ADCBB0066CADA /* GetAllHousesRequest.swift */,
+				9B647EC2210ADCBB0066CADA /* GetAllBooksRequest.swift */,
+				9B647EC3210ADCBB0066CADA /* URLs.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		9B647ECA210AE43B0066CADA /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				9B647ECB210AE43B0066CADA /* ActivityIndicated.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		9B647ECD210AECD70066CADA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B647ED0210AED560066CADA /* Foundation.swift */,
+				9B647ECE210AECD70066CADA /* UITableView.swift */,
+			);
+			name = Extensions;
+			path = Library/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D85B5E52103AD9F00DA74EA /* Build configuration list for PBXNativeTarget "ASongOfIceAndFire" */;
 			buildPhases = (
+				E5350368A71C2B9F2DB20FF7 /* [CP] Check Pods Manifest.lock */,
 				4D85B5CF2103AD9D00DA74EA /* Sources */,
 				4D85B5D02103AD9D00DA74EA /* Frameworks */,
 				4D85B5D12103AD9D00DA74EA /* Resources */,
+				3CE2D40566B5F0CCFE55D56A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,44 +294,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D85B5E12103AD9F00DA74EA /* LaunchScreen.storyboard in Resources */,
-				4D85B5DE2103AD9F00DA74EA /* Assets.xcassets in Resources */,
-				4D85B5DC2103AD9D00DA74EA /* Main.storyboard in Resources */,
+				4D85B5EE2103AEDC00DA74EA /* LaunchScreen.storyboard in Resources */,
+				9B647ED5210AEE1F0066CADA /* BookCell.xib in Resources */,
+				4D85B5F02103AEDC00DA74EA /* Info.plist in Resources */,
+				4D85B5F42103AF9D00DA74EA /* Assets.xcassets in Resources */,
+				9B647ED9210AEE390066CADA /* CommonCell.xib in Resources */,
+				9B647EB7210AC1AB0066CADA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CE2D40566B5F0CCFE55D56A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ASongOfIceAndFire/Pods-ASongOfIceAndFire-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASongOfIceAndFire/Pods-ASongOfIceAndFire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5350368A71C2B9F2DB20FF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASongOfIceAndFire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D85B5CF2103AD9D00DA74EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D85B5D92103AD9D00DA74EA /* ViewController.swift in Sources */,
-				4D85B5D72103AD9D00DA74EA /* AppDelegate.swift in Sources */,
+				9B647EC9210ADCEE0066CADA /* NetworkService.swift in Sources */,
+				9B34ADE321062553004F9163 /* House.swift in Sources */,
+				9B647EC5210ADCBB0066CADA /* GetAllHousesRequest.swift in Sources */,
+				4D85B5EF2103AEDC00DA74EA /* AppDelegate.swift in Sources */,
+				9B647ED8210AEE390066CADA /* CommonCell.swift in Sources */,
+				9B647EC7210ADCBB0066CADA /* URLs.swift in Sources */,
+				9B647EC4210ADCBB0066CADA /* GetAllCharactersRequest.swift in Sources */,
+				9B647ED1210AED560066CADA /* Foundation.swift in Sources */,
+				9B647EC6210ADCBB0066CADA /* GetAllBooksRequest.swift in Sources */,
+				9B647EBA210AD7C70066CADA /* ViewController.swift in Sources */,
+				9B647ED4210AEE1F0066CADA /* BookCell.swift in Sources */,
+				9B647ECC210AE43B0066CADA /* ActivityIndicated.swift in Sources */,
+				9B647EBC210ADA810066CADA /* Presenter.swift in Sources */,
+				9B647ECF210AECD70066CADA /* UITableView.swift in Sources */,
+				9B34ADE121062527004F9163 /* Book.swift in Sources */,
+				9B647EB0210AB6030066CADA /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4D85B5DA2103AD9D00DA74EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D85B5DB2103AD9D00DA74EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4D85B5DF2103AD9F00DA74EA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D85B5E02103AD9F00DA74EA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4D85B5E32103AD9F00DA74EA /* Debug */ = {
@@ -278,10 +491,11 @@
 		};
 		4D85B5E62103AD9F00DA74EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EB6DFE169429E2DC0686A0 /* Pods-ASongOfIceAndFire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ASongOfIceAndFire/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ASongOfIceAndFire/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,10 +509,11 @@
 		};
 		4D85B5E72103AD9F00DA74EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C984961D5B864A32D1E76E3 /* Pods-ASongOfIceAndFire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ASongOfIceAndFire/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ASongOfIceAndFire/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
